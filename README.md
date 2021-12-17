@@ -20,7 +20,7 @@ The results obatine are plotted in a histogram and the following inferences can 
 2. Only on May 6th (total of 45 messages), there was a negative sentiment towards DOGE / SHIB.
 3. The majoriy of English messages regarding DOGE / SHIB was between May 8 to May 10 (corresponding to a total of ~60% of the messages). All corresponding to positive sentiment.
 
-![Sentiment Analysis Results] (../Sentiment_Analysis_Plot.png)
+![Sentiment Analysis Results](https://github.com/ssurananitish/Sentiment-Analysis-Telegram-Crypto/blob/main/Sentiment_Analysis_Plot.png)
 
 Steps to reproduce the results:
 1. Create the environment using the requirments.txt file 
@@ -29,7 +29,7 @@ pip install requirements.txt
 or
 conda install requirements.text
 ```
-2. Run the Jupyter Notebook [Sentiment_Analysis_Crypto] (../blob/main/Sentiment_Analysis_Crypto.ipynb)
+2. Run the Jupyter Notebook [Sentiment_Analysis_Crypto](https://github.com/ssurananitish/Sentiment-Analysis-Telegram-Crypto/blob/main/Sentiment_Analysis_Crypto.ipynb)
 
 Possible Sources of Disprencies:
 1. Stochastic nature of the SpaCy Language Model. (Can provide two different results for the same Input Message)
