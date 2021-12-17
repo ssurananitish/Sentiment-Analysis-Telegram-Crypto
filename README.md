@@ -11,6 +11,7 @@ It provides sentiment of the given input message by providing four attributes:
 
 The sum of neg, neu and pos will always add up to 100%. The more Compound score closer to +1, the higher the positivity of the text.
 
+---
 After calculating the sentiment for every English text message containing either SHIB or DOGE, the average sentiment is calculated for every single day and grouped into two categories: 
 1. Positive Sentiment: The average Compound Score for that day is > 0.
 2. Negative Sentiment: The average Compound Score for that day is < 0.
@@ -22,6 +23,7 @@ The results obatine are plotted in a histogram and the following inferences can 
 
 ![Sentiment Analysis Results](https://github.com/ssurananitish/Sentiment-Analysis-Telegram-Crypto/blob/main/Sentiment_Analysis_Plot.png)
 
+---
 Steps to reproduce the results:
 1. Create the environment using the requirments.txt file 
 ```
@@ -31,6 +33,7 @@ conda install requirements.text
 ```
 2. Run the Jupyter Notebook [Sentiment_Analysis_Crypto](https://github.com/ssurananitish/Sentiment-Analysis-Telegram-Crypto/blob/main/Sentiment_Analysis_Crypto.ipynb)
 
+---
 Possible Sources of Disprencies:
 1. Stochastic nature of the SpaCy Language Model. (Can provide two different results for the same Input Message)
 2. Stochastic nature of the VADER Sentiment Analysis Model. (Can provide slightly different polarity values for the same Input message)
