@@ -24,16 +24,16 @@ The results obtained are plotted in a histogram and the following inferences can
 ![Sentiment Analysis Results](https://github.com/ssurananitish/Sentiment-Analysis-Telegram-Crypto/blob/main/Sentiment_Analysis_Plot.png)
 
 ---
-Steps to reproduce the results:
-1. Create the environment using the requirments.txt file 
+*Steps to reproduce the results:*
+1. Create the environment using the requirements.txt file 
 ```
 pip install requirements.txt
 or
-conda install requirements.text
+conda install requirements.txt
 ```
 2. Run the Jupyter Notebook [Sentiment_Analysis_Crypto](https://github.com/ssurananitish/Sentiment-Analysis-Telegram-Crypto/blob/main/Sentiment_Analysis_Crypto.ipynb)
 
 ---
-Possible Sources of Disprencies:
+Possible Sources of Discrepancies:
 1. Stochastic nature of the SpaCy Language Model. (Can provide two different results for the same Input Message)
 2. Stochastic nature of the VADER Sentiment Analysis Model. (Can provide slightly different polarity values for the same Input message)
