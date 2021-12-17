@@ -34,6 +34,6 @@ conda install requirements.txt
 2. Run the Jupyter Notebook [Sentiment_Analysis_Crypto](https://github.com/ssurananitish/Sentiment-Analysis-Telegram-Crypto/blob/main/Sentiment_Analysis_Crypto.ipynb)
 
 ---
-Possible Sources of Discrepancies:
-1. Stochastic nature of the SpaCy Language Model. (Can provide two different results for the same Input Message)
+*Possible Sources of Discrepancies:*
+1. Stochastic nature of the SpaCy Language Model. (Can provide two different Language results for the same Input Message)
 2. Stochastic nature of the VADER Sentiment Analysis Model. (Can provide slightly different polarity values for the same Input message)
